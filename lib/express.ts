@@ -1,12 +1,12 @@
 import {StringHashMap, HashMap} from '@icancode/base';
 import {v4 as uuidv4} from 'uuid';
 import {Request, Response} from 'express';
-import {Logger} from './logger';
+import Logger from './logger';
 
 /**
  * ExpressLogger
  */
-export class ExpressLogger implements Logger {
+export default class ExpressLogger implements Logger {
   private request: Request;
   private response: Response;
   private metadata: StringHashMap;
