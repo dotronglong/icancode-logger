@@ -1,5 +1,6 @@
-import {Logger, WinstonLogger} from './lib/logger';
-import {ExpressLogger} from './lib/express';
+import Logger from './lib/logger';
+import ExpressLogger from './lib/express';
+import WinstonLogger from './lib/express';
 
 export {
   Logger,
