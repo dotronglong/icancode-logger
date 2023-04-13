@@ -50,3 +50,8 @@ Thumbs.db
 
 # application
 test.js
+
+# Built files
+*.d.ts
+*.js
+!.spec.js
