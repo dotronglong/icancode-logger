@@ -1,9 +1,7 @@
 import Logger from './lib/logger';
-import ExpressLogger from './lib/express';
-import WinstonLogger from './lib/express';
+import ConsoleLogger from './lib/console';
 
 export {
   Logger,
-  WinstonLogger,
-  ExpressLogger,
+  ConsoleLogger
 }
