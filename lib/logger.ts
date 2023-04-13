@@ -7,28 +7,24 @@ export default interface Logger {
   /**
    * Logs debug message
    * @param {*} message
-   * @return {Logger}
    */
   debug(message: any): void;
 
   /**
    * Logs info message
    * @param {*} message
-   * @return {Logger}
    */
   info(message: any): void;
 
   /**
-   * Logs info message
+   * Logs warn message
    * @param {*} message
-   * @return {Logger}
    */
   warn(message: any): void;
 
   /**
-   * Logs info message
+   * Logs error message
    * @param {*} message
-   * @return {Logger}
    */
   error(message: any): void;
 
