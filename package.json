@@ -1,6 +1,6 @@
 {
   "name": "@icancode/logger",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Simple Logger",
   "main": "main",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/dotronglong/icancode-logger#readme",
   "dependencies": {
-    "@icancode/base": "^1.0.1"
+    "@icancode/base": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
